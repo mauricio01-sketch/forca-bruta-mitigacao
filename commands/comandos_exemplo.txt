@@ -1,0 +1,15 @@
+# Comandos usados (exemplo)
+# (rodar localmente no ambiente de desenvolvimento/laboratório)
+
+# 1) Rodar a simulação (Python 3)
+python src/forca_bruta_demo.py
+
+# 2) Ver o log de saída
+type commands\output_log.txt   # Windows
+# ou
+cat commands/output_log.txt    # macOS / Linux / Git Bash
+
+# 3) Subir mudanças ao GitHub (se estiver usando Git Bash / terminal)
+git add .
+git commit -m "Atualiza simulador e evidências"
+git push
