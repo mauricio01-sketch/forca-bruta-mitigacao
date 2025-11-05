@@ -1,0 +1,20 @@
+# Ignore common system files
+.DS_Store
+Thumbs.db
+
+# Logs and env
+*.log
+*.env
+
+# VM files (do not commit large VM files)
+*.ova
+*.vdi
+*.vbox
+*.vbox-prev
+
+# Python cache
+__pycache__/
+
+# IDE files
+.vscode/
+.idea/
